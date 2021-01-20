@@ -1,4 +1,6 @@
-package by.academy.classwork.lesson1;
+package by.academy.cw.cw1;
+
+import by.academy.cw.cw1.Cat;
 
 public class Application {
     public static void main(String[] args) {

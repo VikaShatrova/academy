@@ -1,4 +1,4 @@
-package by.academy.classwork.lesson1;
+package by.academy.cw.cw1;
 
 
 public class Cat {

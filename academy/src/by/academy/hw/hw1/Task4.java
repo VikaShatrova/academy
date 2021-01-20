@@ -1,4 +1,4 @@
-package by.academy.hw1;
+package by.academy.hw.hw1;
 
 public class Task4 {
     public static void main(String[] args) {

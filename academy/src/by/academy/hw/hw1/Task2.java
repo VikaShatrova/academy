@@ -1,4 +1,4 @@
-package by.academy.hw1;
+package by.academy.hw.hw1;
 
 import java.io.IOException;
 import java.util.Scanner;
