@@ -1,6 +1,9 @@
 package by.academy.cw.cw2;
 
 public class Task6 {
+//    В сберкассу на трёхпроцентный вклад положили S рублей.
+//    Какой станет сумма вклада через N лет.
+
     public static void main(String[] args) {
         double sum = 200;
         int percent = 3;

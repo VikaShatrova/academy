@@ -1,6 +1,10 @@
 package by.academy.cw.cw2;
 
 public class Task18 {
+//    Задано натуральное число N.
+//    Найти количество натуральных чисел, не превосходящих N и
+//    не делящихся ни на одно из чисел 2,3,5.
+
     public static void main(String[] args) {
         int n = 100;
         int count = 0;

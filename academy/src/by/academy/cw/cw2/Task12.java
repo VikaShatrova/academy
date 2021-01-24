@@ -1,6 +1,8 @@
 package by.academy.cw.cw2;
 
 public class Task12 {
+//    Найти произведение двузначных нечетных чисел кратных 13.
+
     public static void main(String[] args) {
         int result = 1;
         for (int i = 10; i < 100; i++) {

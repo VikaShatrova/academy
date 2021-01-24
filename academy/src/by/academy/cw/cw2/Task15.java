@@ -3,6 +3,9 @@ package by.academy.cw.cw2;
 import java.util.Scanner;
 
 public class Task15 {
+//      Написать программу,
+//      которая по заданным значениям чисел a и b находит a в степени b.
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("введите число а");
