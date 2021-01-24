@@ -6,10 +6,8 @@ public class Task6 {
         int percent = 3;
         int years = 3;
 
-
         for (int i = 0; i < years; i++) {
-            sum= sum+(sum*percent*0.01);
-
+            sum = sum + (sum * percent * 0.01);
         }
         System.out.println(sum);
     }

@@ -13,7 +13,7 @@ public class Application {
         noname.grow();
         noname.grow();
         System.out.println("age of noname is " + noname.age);
-        name.setInitials();
+
 
 
 
