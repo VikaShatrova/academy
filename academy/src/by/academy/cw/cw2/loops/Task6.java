@@ -1,4 +1,4 @@
-package by.academy.cw.cw2;
+package by.academy.cw.cw2.loops;
 
 public class Task6 {
 //    В сберкассу на трёхпроцентный вклад положили S рублей.

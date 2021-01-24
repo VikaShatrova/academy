@@ -1,4 +1,4 @@
-package by.academy.cw.cw2;
+package by.academy.cw.cw2.loops;
 
 public class Task12 {
 //    Найти произведение двузначных нечетных чисел кратных 13.

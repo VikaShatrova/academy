@@ -1,4 +1,4 @@
-package by.academy.cw.cw2;
+package by.academy.cw.cw2.loops;
 
 public class Task9 {
 //    даны натуральные числа от 35 до 87. Найти и напечатать те из них,

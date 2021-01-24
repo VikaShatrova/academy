@@ -1,4 +1,4 @@
-package by.academy.cw.cw2;
+package by.academy.cw.cw2.loops;
 
 import java.util.Scanner;
 

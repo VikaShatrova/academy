@@ -1,4 +1,4 @@
-package by.academy.cw.cw2;
+package by.academy.cw.cw2.loops;
 
 public class Task30 {
 //    С помощью оператора while

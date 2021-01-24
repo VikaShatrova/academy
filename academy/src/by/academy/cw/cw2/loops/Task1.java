@@ -1,4 +1,4 @@
-package by.academy.cw.cw2;
+package by.academy.cw.cw2.loops;
 
 public class Task1 {
 //    Составьте программу, выводящую на экран квадраты чисел от 10 до 20.
