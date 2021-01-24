@@ -45,7 +45,7 @@ public class Cat {
     }
 
     public void setInitials(char initials) {
-        this.initials = initials;
+        this.initials = nickname.charAt(0);
     }
 
     public boolean IsHomeAnimal() {
@@ -55,4 +55,6 @@ public class Cat {
     public void setIsHomeAnimal(boolean isHomeAnimal) {
         this.isHomeAnimal = isHomeAnimal;
     }
+
+
 }
