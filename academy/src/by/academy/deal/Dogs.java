@@ -24,7 +24,9 @@ public class Dogs extends Product {
     public double discount() {
         double discount = 0;
         if (gender.equals("f")) {
-            discount = price * 0.17;
+            discount = 0.17;
+        } else {
+            discount = 1;
         }
         return discount;
     }

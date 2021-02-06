@@ -24,9 +24,9 @@ public class Cats extends Product {
     public double discount() {
         double discount = 0;
         if (age > 8) {
-            discount = price * 0.8;
+            discount = 0.8;
         } else {
-            discount = price * 1;
+            discount = 1;
         }
         return discount;
     }

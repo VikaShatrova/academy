@@ -29,12 +29,12 @@ public class Product {
         this.quantity = quantity;
     }
 
-    public double discount() {
+    protected double discount() {
         double discount = 0;
         if (quantity > 20) {
-            discount = price * 0.9;
+            discount = 0.9;
         } else {
-            discount = price*1;
+            discount = 1;
         }
         return discount;
     }

@@ -3,7 +3,7 @@ package by.academy.deal;
 public class Deal {
     Person seller;
     Person buyer;
-    Product [] products;
+    Product[] products;
     String dealDate;
 
     public Person getSeller() {
@@ -38,8 +38,16 @@ public class Deal {
         this.dealDate = dealDate;
     }
 
-    public double check(){
+    public double deal() {
+        double checkSum = 0.0;
 
+        for (Product p : products) {
+            if (p!=null) {
+                System.out.println(p.getName());
+                checkSum += p.discount() * p.getPrice() * p.getQuantity();
+            }
+        }
+        return checkSum;
     }
 
     public Deal() {
