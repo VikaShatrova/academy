@@ -42,8 +42,9 @@ public class Deal {
         double checkSum = 0.0;
 
         for (Product p : products) {
-            if (p!=null) {
+            if (p != null) {
                 System.out.println(p.getName());
+                System.out.println(p.getPrice() + "x" + p.getQuantity() + "x" + p.discount() + "=" +);
                 checkSum += p.discount() * p.getPrice() * p.getQuantity();
             }
         }
