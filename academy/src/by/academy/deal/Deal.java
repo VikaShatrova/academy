@@ -38,6 +38,10 @@ public class Deal {
         this.dealDate = dealDate;
     }
 
+    public double check(){
+
+    }
+
     public Deal() {
         super();
     }

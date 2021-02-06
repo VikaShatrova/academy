@@ -2,7 +2,7 @@ package by.academy.deal;
 
 public class Product {
     String name;
-    Double price;
+    double price;
     Integer quantity;
 
     public String getName() {
@@ -13,14 +13,13 @@ public class Product {
         this.name = name;
     }
 
-    public Double getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(Double price) {
+    public void setPrice(double price) {
         this.price = price;
     }
-
 
     public Integer getQuantity() {
         return quantity;
@@ -28,6 +27,16 @@ public class Product {
 
     public void setQuantity(Integer quantity) {
         this.quantity = quantity;
+    }
+
+    public double discount() {
+        double discount = 0;
+        if (quantity > 20) {
+            discount = price * 0.9;
+        } else {
+            discount = price*1;
+        }
+        return discount;
     }
 
     public Product() {

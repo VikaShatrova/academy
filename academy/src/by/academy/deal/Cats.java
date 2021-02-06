@@ -4,10 +4,6 @@ public class Cats extends Product {
     Integer age;
     String gender;
 
-    public void grows (Integer age){
-        this.age++;
-    }
-
     public Integer getAge() {
         return age;
     }
@@ -22,6 +18,17 @@ public class Cats extends Product {
 
     public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    @Override
+    public double discount() {
+        double discount = 0;
+        if (age > 8) {
+            discount = price * 0.8;
+        } else {
+            discount = price * 1;
+        }
+        return discount;
     }
 
     public Cats() {

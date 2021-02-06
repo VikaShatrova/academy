@@ -20,6 +20,15 @@ public class Dogs extends Product {
         this.gender = gender;
     }
 
+    @Override
+    public double discount() {
+        double discount = 0;
+        if (gender.equals("f")) {
+            discount = price * 0.17;
+        }
+        return discount;
+    }
+
     public Dogs() {
         super();
     }
