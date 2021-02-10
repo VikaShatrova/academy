@@ -1,6 +1,6 @@
 package by.academy.deal;
 
-public class Product {
+public abstract class Product {
     String name;
     double price;
     Integer quantity;
@@ -29,14 +29,10 @@ public class Product {
         this.quantity = quantity;
     }
 
-    protected double discount() {
-        double discount = 0;
-        if (quantity > 20) {
-            discount = 0.9;
-        } else {
-            discount = 1;
-        }
-        return discount;
+    protected abstract double discount();
+
+    protected double calcFinalPrice() {
+        return price * quantity * discount();
     }
 
     public Product() {
