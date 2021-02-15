@@ -1,9 +1,19 @@
-package by.academy.deal;
+package by.academy.hw.hw3.deal;
 
 public abstract class Product {
-    String name;
-    double price;
-    Integer quantity;
+    protected String name;
+    protected double price;
+    protected int quantity;
+
+    public Product() {
+        super();
+    }
+
+    public Product(String name, Double price, Integer quantity) {
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+    }
 
     public String getName() {
         return name;
@@ -33,15 +43,5 @@ public abstract class Product {
 
     protected double calcFinalPrice() {
         return price * quantity * discount();
-    }
-
-    public Product() {
-        super();
-    }
-
-    public Product(String name, Double price, Integer quantity) {
-        this.name = name;
-        this.price = price;
-        this.quantity = quantity;
     }
 }
