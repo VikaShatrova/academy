@@ -72,7 +72,7 @@ public class Deal {
 
     public double printBill() {
         System.out.println("BILL of " + dealDate);
-        System.out.println("Dealine date: "+ "\nDay: " + printDeadlineDate().getDayOfMonth());
+        System.out.println("Deadline date: "+ "\nDay: " + printDeadlineDate().getDayOfMonth());
         System.out.println("Month: " + printDeadlineDate().getMonth());
         System.out.println("Year: " + printDeadlineDate().getYear());
         double checkSum = 0.0;
