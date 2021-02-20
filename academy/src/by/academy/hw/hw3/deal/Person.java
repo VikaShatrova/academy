@@ -7,21 +7,21 @@ public class Person {
     protected Double money;
     protected String dateOfBirth;
 
-    public Person() {
+    protected Person() {
         super();
     }
 
-    public Person(String name, Double money) {
+    protected Person(String name, Double money) {
         this.name = name;
         this.money = money;
     }
 
-    public Person(String name, String phone) {
+    protected Person(String name, String phone) {
         this.name = name;
         this.phone = phone;
     }
 
-    public Person(String name, String phone,
+    protected Person(String name, String phone,
                   String email, Double money,
                   String dateOfBirth) {
         this.name = name;
@@ -31,43 +31,43 @@ public class Person {
         this.dateOfBirth = dateOfBirth;
     }
 
-    public String getName() {
+    protected String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    protected void setName(String name) {
         this.name = name;
     }
 
-    public String getPhone() {
+    protected String getPhone() {
         return phone;
     }
 
-    public void setPhone(String phone) {
+    protected void setPhone(String phone) {
         this.phone = phone;
     }
 
-    public String getEmail() {
+    protected String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
+    protected void setEmail(String email) {
         this.email = email;
     }
 
-    public Double getMoney() {
+    protected Double getMoney() {
         return money;
     }
 
-    public void setMoney(Double money) {
+    protected void setMoney(Double money) {
         this.money = money;
     }
 
-    public String getDateOfBirth() {
+    protected String getDateOfBirth() {
         return dateOfBirth;
     }
 
-    public void setDateOfBirth(String dateOfBirth) {
+    protected void setDateOfBirth(String dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
 }

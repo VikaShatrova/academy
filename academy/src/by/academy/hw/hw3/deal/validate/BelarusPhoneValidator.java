@@ -9,7 +9,7 @@ public class BelarusPhoneValidator implements Validator {
     @Override
     public Boolean validate(String stringBelarusPhone) {
         Matcher matcher = pattern.matcher(stringBelarusPhone);
-        if (matcher.matches()==false){
+        if (matcher.matches() == false) {
             System.out.println("incorrect data");
         }
         return matcher.matches();

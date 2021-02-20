@@ -5,37 +5,37 @@ public abstract class Product {
     protected double price;
     protected int quantity;
 
-    public Product() {
+    protected Product() {
         super();
     }
 
-    public Product(String name, Double price, Integer quantity) {
+    protected Product(String name, Double price, Integer quantity) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
     }
 
-    public String getName() {
+    protected String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    protected void setName(String name) {
         this.name = name;
     }
 
-    public double getPrice() {
+    protected double getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    protected void setPrice(double price) {
         this.price = price;
     }
 
-    public Integer getQuantity() {
+    protected Integer getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(Integer quantity) {
+    protected void setQuantity(Integer quantity) {
         this.quantity = quantity;
     }
 

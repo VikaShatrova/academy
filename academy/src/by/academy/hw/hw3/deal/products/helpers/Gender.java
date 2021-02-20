@@ -1,4 +1,4 @@
-package by.academy.hw.hw3.deal.products;
+package by.academy.hw.hw3.deal.products.helpers;
 
 public enum Gender {
     FEMALE("FEMALE"), MALE("MALE");

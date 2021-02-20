@@ -1,4 +1,6 @@
-package by.academy.hw.hw3.deal;
+package by.academy.hw.hw3.deal.persons;
+
+import by.academy.hw.hw3.deal.Person;
 
 public class Seller extends Person {
 

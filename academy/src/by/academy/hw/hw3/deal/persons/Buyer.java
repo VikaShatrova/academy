@@ -1,5 +1,6 @@
-package by.academy.hw.hw3.deal;
+package by.academy.hw.hw3.deal.persons;
 
+import by.academy.hw.hw3.deal.Person;
 import by.academy.hw.hw3.deal.validate.BelarusPhoneValidator;
 import by.academy.hw.hw3.deal.validate.DateValidator;
 import by.academy.hw.hw3.deal.validate.EmailValidator;
@@ -73,6 +74,9 @@ public class Buyer extends Person {
         System.out.println();
         Scanner scan = new Scanner(System.in);
 
+        System.out.println("input buyer's name ");
+        setName(scan.nextLine());
+
         System.out.println("input buyer's phone ");
         setPhone(scan.nextLine());
         BelarusPhoneValidator belarusPhoneValidator = new BelarusPhoneValidator();
@@ -87,5 +91,8 @@ public class Buyer extends Person {
         setDateOfBirth(scan.nextLine());
         DateValidator dealDate = new DateValidator();
         dealDate.validate(dateOfBirth);
+
+        System.out.println("input buyer's money ");
+        setMoney(scan.nextDouble());
     }
 }

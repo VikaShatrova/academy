@@ -1,7 +1,10 @@
 package by.academy.hw.hw3.deal.products;
 
 import by.academy.hw.hw3.deal.Product;
+import by.academy.hw.hw3.deal.products.helpers.Gender;
+import by.academy.hw.hw3.deal.products.helpers.Producer;
 
+@Producer(birthYear = 2018, country = "Belarus", kind = "German shepherd")
 public class Dog extends Product {
     private Integer age;
     private Gender gender;
