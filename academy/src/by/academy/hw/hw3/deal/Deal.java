@@ -71,9 +71,6 @@ public class Deal {
         switch (number) {
             case "1":
                 System.out.println("list of products:");
-                addProduct(new Dog("Dog", 100.0, 1, 5, Gender.FEMALE));
-                addProduct(new Cat("Cat", 150.0, 3, 8, Gender.MALE));
-                addProduct(new Bird("Bird", 15.0, 25, 1, Colour.RED));
                 printListOfProducts();
                 System.out.println();
                 goDeal(buyer, seller);
