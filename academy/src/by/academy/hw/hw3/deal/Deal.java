@@ -80,7 +80,7 @@ public class Deal {
                 break;
             case "2":
                 buyer.inputDataBuyer();
-                inputDealDate(scanner);
+                inputDealDate();
                 if (buyer.getMoney() - totalSum() < 0) {
                     System.out.println("not enought money");
                 } else {
@@ -168,7 +168,7 @@ public class Deal {
         return totalSum;
     }
 
-    public void inputDealDate(Scanner scanner) {
+    public void inputDealDate() {
         System.out.println("input deal's date (format dd/MM/yyyy)");
         Scanner scan = new Scanner(System.in);
         setDealDate(scan.nextLine());
