@@ -9,6 +9,7 @@ public class IteratorDemo {
         while (arrayIterator.hasNext()) {
             Integer i = arrayIterator.next();
             System.out.println(i);
+
         }
     }
 }
