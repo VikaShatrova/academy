@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class AmericanPhoneValidator implements Validator {
-    Pattern pattern = Pattern.compile("\\+1\\d{3}[-.]?\\d{3}[-.]?\\d{4}");
+    private static final Pattern pattern = Pattern.compile("\\+1\\d{3}[-.]?\\d{3}[-.]?\\d{4}");
 
     @Override
     public Boolean validate(String stringAmericanPhone) {

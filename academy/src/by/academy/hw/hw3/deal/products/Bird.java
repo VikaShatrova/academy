@@ -3,6 +3,7 @@ package by.academy.hw.hw3.deal.products;
 import by.academy.hw.hw3.deal.Product;
 import by.academy.hw.hw3.deal.products.helpers.Colour;
 
+
 public class Bird extends Product {
     private Integer age;
     private Colour colour;
