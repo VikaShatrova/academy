@@ -1,7 +1,10 @@
 package by.academy.hw.hw4.task2;
 
+import java.util.Arrays;
+
 public class Generic<T> {
     private T[] array;
+    private int counter = 0;
 
     public Generic() {
         super();
@@ -21,6 +24,13 @@ public class Generic<T> {
         this.array = array;
     }
 
+    public void addObject(T obj) {
+        if (array.length == counter) {
+            expandArray();
+        }
+        array[counter++] = obj;
+    }
+
     public T get(int i) {
         if (i < array.length) {
             return array[i];
@@ -34,6 +44,12 @@ public class Generic<T> {
 
     public T getFirst() {
         return array[0];
+    }
+
+    private void expandArray() {
+        T[] tempArray = (T[]) new Object[array.length * 2 + 1];
+        tempArray = Arrays.copyOf(array, array.length);
+        array = tempArray;
     }
 
     public void getArrayLength() {
